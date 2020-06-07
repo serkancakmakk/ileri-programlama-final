@@ -27,8 +27,8 @@ for (var m = 2; m <= ulimit; m++) {
             //for döngüsünde m'yi tanımlarız m üstlimitten küçük olduğu sürece m'yi arttırırız
             //m2'nin m*m olduğunu tanımlarız tekrar for döngüsü için n'yi tanımlarız
             // n < m olduğu sürece n'yi arttırız
-            //m + n'in bölümünden kalan 0 a eşitse ve ctiles fonksiyonu birden büyükse
-            //ve diğer döngüye atlar
+            //m + n'in bölümünden kalan 0 a eşitse veya ctiles fonksiyonuna göre n,m birden büyükse
+            // diğer döngüye atlar
         }
         var n2 = n * n;
         var a = m2 - n2;
